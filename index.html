@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stopwatch</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<!-- my css -->
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+<div class="stopwatch text-4xl mb-4">00:00:00</div>
+<div class="flex space-x-4">
+    <button class="btn-start-stop bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md" onclick="startStop()">Start/Stop</button>
+    <button class="btn-reset bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-md" onclick="reset()">Reset</button>
+    <button class="btn-lap bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md" onclick="lap()">Lap</button>
+</div>
+<div class="lap-times mt-4"></div>
+
+<script src="main.js"></script>
+</body>
+</html>

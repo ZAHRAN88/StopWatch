@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body{
+
+    background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.stopwatch{
+    font-family: 'VT323', sans-serif;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.lap-times{
+
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
